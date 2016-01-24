@@ -156,6 +156,11 @@
     return [self.tokenViews indexOfObject:view];
 }
 
+- (UIView *)viewForTokenAtIndex:(NSUInteger) index
+{
+    return [self.tokenViews objectAtIndex:index];
+}
+
 #pragma mark - Private
 
 - (void)enumerateItemRectsUsingBlock:(void (^)(CGRect itemRect))block

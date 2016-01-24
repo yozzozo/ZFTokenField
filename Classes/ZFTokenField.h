@@ -41,5 +41,6 @@
 - (void)reloadData;
 - (NSUInteger)numberOfToken;
 - (NSUInteger)indexOfTokenView:(UIView *)view;
+- (UIView *)viewForTokenAtIndex:(NSUInteger) index;
 
 @end
